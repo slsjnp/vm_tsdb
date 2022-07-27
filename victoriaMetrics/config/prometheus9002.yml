@@ -19,7 +19,7 @@ scrape_configs:
       - targets: ["localhost:9091"]
   - job_name: "victoria"
     static_configs:
-        - targets: [7.58.117.67:8480, 7.58.117.67:8481, 7.58.117.67:8482, 7.58.117.67:8429]
+      - targets: [localhost:8480, localhost:8481, localhost:8482, localhost:8429]
   - job_name: "local"
     static_configs:
       - targets: ["localhost:9102"]
