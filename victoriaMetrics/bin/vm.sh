@@ -1,4 +1,4 @@
-VM_HOME='/home/sujian02/data/victoriaMetrics'
+VM_HOME='/home/sujian02/vm_tsdb/victoriaMetrics'
 MEM_LIMIT='12800MB'    #内存使用限制
 VMSOTRAGE_PORT='8482'  #vmstorage监听端口
 VMSOTRAGE_INSERT_PORT='8400'  #vmstorage对vminsert提供服务的监听端口
