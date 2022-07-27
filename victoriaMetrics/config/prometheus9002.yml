@@ -25,136 +25,136 @@ scrape_configs:
       - targets: ["localhost:9102"]
   - job_name: "mongodb1"
     static_configs:
-      - targets: ["10.91.13.64:9001"]
+      - targets: ["10.91.13.64:9002"]
   - job_name: "mongodb2"
     static_configs:
-      - targets: ["10.91.15.59:9001"]
+      - targets: ["10.91.15.59:9002"]
   - job_name: "mongodb3"
     static_configs:
-      - targets: ["10.91.16.59:9001"]
+      - targets: ["10.91.16.59:9002"]
   - job_name: "mongodb4"
     static_configs:
-      - targets: ["10.91.17.59:9001"]
+      - targets: ["10.91.17.59:9002"]
   - job_name: "mongodb5"
     static_configs:
-      - targets: ["10.91.12.64:9001"]
+      - targets: ["10.91.12.64:9002"]
   - job_name: "mongodb6"
     static_configs:
-      - targets: ["10.91.14.64:9001"]
+      - targets: ["10.91.14.64:9002"]
   - job_name: "mongodb7"
     static_configs:
-      - targets: ["10.91.12.63:9001"]
+      - targets: ["10.91.12.63:9002"]
   - job_name: "mongodb8"
     static_configs:
-      - targets: ["10.91.13.63:9001"]
+      - targets: ["10.91.13.63:9002"]
   - job_name: "mongodb9"
     static_configs:
-      - targets: ["10.91.14.63:9001"]
+      - targets: ["10.91.14.63:9002"]
   - job_name: "mongodb10"
     static_configs:
-      - targets: [" 10.214.50.57:9001"]
+      - targets: [" 10.214.50.57:9002"]
   - job_name: "mongodb11"
     static_configs:
-      - targets: [" 10.214.50.58:9001"]
+      - targets: [" 10.214.50.58:9002"]
   - job_name: "mongodb12"
     static_configs:
-      - targets: [" 10.91.12.60:9001"]
+      - targets: [" 10.91.12.60:9002"]
   - job_name: "mongodb13"
     static_configs:
-      - targets: [" 10.91.13.60:9001"]
+      - targets: [" 10.91.13.60:9002"]
   - job_name: "mongodb14"
     static_configs:
-      - targets: [" 10.91.14.60:9001"]
+      - targets: [" 10.91.14.60:9002"]
   - job_name: "mongodb15"
     static_configs:
-      - targets: [" 10.170.121.122:9001"]
+      - targets: [" 10.170.121.122:9002"]
   - job_name: "mongodb16"
     static_configs:
-      - targets: [" 10.170.123.122:9001"]
+      - targets: [" 10.170.123.122:9002"]
   - job_name: "mongodb17"
     static_configs:
-      - targets: [" 10.214.50.67:9001"]
+      - targets: [" 10.214.50.67:9002"]
   - job_name: "mongodb18"
     static_configs:
-      - targets: [" 10.214.50.68:9001"]
+      - targets: [" 10.214.50.68:9002"]
   - job_name: "mongodb19"
     static_configs:
-      - targets: [" 10.91.12.53:9001"]
+      - targets: [" 10.91.12.53:9002"]
   - job_name: "mongodb20"
     static_configs:
-      - targets: [" 10.91.13.53:9001"]
+      - targets: [" 10.91.13.53:9002"]
   - job_name: "mongodb21"
     static_configs:
-      - targets: [" 10.91.14.53:9001"]
+      - targets: [" 10.91.14.53:9002"]
   - job_name: "mongodb22"
     static_configs:
-      - targets: [" 10.91.12.51:9001"]
+      - targets: [" 10.91.12.51:9002"]
   - job_name: "mongodb23"
     static_configs:
-      - targets: [" 10.91.13.51:9001"]
+      - targets: [" 10.91.13.51:9002"]
   - job_name: "mongodb24"
     static_configs:
-      - targets: [" 10.91.14.51:9001"]
+      - targets: [" 10.91.14.51:9002"]
   - job_name: "mongodb25"
     static_configs:
-      - targets: [" 10.188.162.86:9001"]
+      - targets: [" 10.188.162.86:9002"]
   - job_name: "mongodb26"
     static_configs:
-      - targets: [" 10.188.162.102:9001"]
+      - targets: [" 10.188.162.102:9002"]
   - job_name: "mongodb27"
     static_configs:
-      - targets: [" 10.188.162.118:9001"]
+      - targets: [" 10.188.162.118:9002"]
   - job_name: "mongodb28"
     static_configs:
-      - targets: [" 10.78.58.107:9001"]
+      - targets: [" 10.78.58.107:9002"]
   - job_name: "mongodb29"
     static_configs:
-      - targets: [" 10.78.58.43:9001"]
+      - targets: [" 10.78.58.43:9002"]
   - job_name: "mongodb30"
     static_configs:
-      - targets: [" 10.78.58.75:9001"]
+      - targets: [" 10.78.58.75:9002"]
   - job_name: "mongodb31"
     static_configs:
-      - targets: [" 10.214.50.70:9001"]
+      - targets: [" 10.214.50.70:9002"]
   - job_name: "mongodb32"
     static_configs:
-      - targets: [" 10.214.50.71:9001"]
+      - targets: [" 10.214.50.71:9002"]
   - job_name: "mongodb33"
     static_configs:
-      - targets: [" 10.192.32.235:9001"]
+      - targets: [" 10.192.32.235:9002"]
   - job_name: "mongodb34"
     static_configs:
-      - targets: [" 10.192.33.235:9001"]
+      - targets: [" 10.192.33.235:9002"]
   - job_name: "mongodb35"
     static_configs:
-      - targets: [" 10.192.34.235:9001"]
+      - targets: [" 10.192.34.235:9002"]
   - job_name: "mongodb36"
     static_configs:
-      - targets: [" 10.170.121.118:9001"]
+      - targets: [" 10.170.121.118:9002"]
   - job_name: "mongodb37"
     static_configs:
-      - targets: [" 10.170.122.118:9001"]
+      - targets: [" 10.170.122.118:9002"]
   - job_name: "mongodb38"
     static_configs:
-      - targets: [" 10.170.123.118:9001"]
+      - targets: [" 10.170.123.118:9002"]
   - job_name: "mongodb39"
     static_configs:
-      - targets: [" 10.192.32.234:9001"]
+      - targets: [" 10.192.32.234:9002"]
   - job_name: "mongodb40"
     static_configs:
-      - targets: [" 10.192.33.234:9001"]
+      - targets: [" 10.192.33.234:9002"]
   - job_name: "mongodb41"
     static_configs:
-      - targets: [" 10.192.34.234:9001"]
+      - targets: [" 10.192.34.234:9002"]
   - job_name: "mongodb42"
     static_configs:
-      - targets: [" 10.170.121.117:9001"]
+      - targets: [" 10.170.121.117:9002"]
   - job_name: "mongodb43"
     static_configs:
-      - targets: [" 10.170.122.117:9001"]
+      - targets: [" 10.170.122.117:9002"]
   - job_name: "mongodb44"
     static_configs:
-      - targets: [" 10.170.123.117:9001"]
+      - targets: [" 10.170.123.117:9002"]
   - job_name: "mongodb45"
     static_configs:
-      - targets: [" 10.170.122.122:9001"]
+      - targets: [" 10.170.122.122:9002"]
