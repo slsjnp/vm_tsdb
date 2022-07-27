@@ -1,0 +1,53 @@
+# my global config
+global:
+  scrape_interval: 15s # Set the scrape interval to every 15 seconds. Default is every 1 minute.
+  # evaluation_interval: 15s # Evaluate rules every 15 seconds. The default is every 1 minute.
+  # scrape_timeout is set to the global default (10s).
+
+# Alertmanager configuration
+
+
+# A scrape configuration containing exactly one endpoint to scrape:
+# Here it's Prometheus itself.
+scrape_configs:
+  # The job name is added as a label `job=<job_name>` to any timeseries scraped from this config.
+  - job_name: "prometheus"
+
+    # metrics_path defaults to '/metrics'
+    # scheme defaults to 'http'.
+    static_configs:
+      - targets: ["localhost:9091"]
+  - job_name: "victoria"
+    static_configs:
+        - targets: [7.58.117.67:8480, 7.58.117.67:8481, 7.58.117.67:8482, 7.58.117.67:8429]
+  - job_name: "local"
+    static_configs:
+      - targets: ["localhost:9102"]
+  - job_name: "mongodb1"
+    static_configs:
+      - targets: ["10.91.13.64:9001"]
+  - job_name: "mongodb2"
+    static_configs:
+      - targets: ["10.91.15.59:9001"]
+  - job_name: "mongodb3"
+    static_configs:
+      - targets: ["10.91.16.59:9001"]
+  - job_name: "mongodb4"
+    static_configs:
+      - targets: ["10.91.17.59:9001"]
+  - job_name: "mongodb5"
+    static_configs:
+      - targets: ["10.91.12.64:9001"]
+  - job_name: "mongodb6"
+    static_configs:
+      - targets: ["10.91.14.64:9001"]
+  - job_name: "mongodb7"
+    static_configs:
+      - targets: ["10.91.12.63:9001"]
+  - job_name: "mongodb8"
+    static_configs:
+      - targets: ["10.91.13.63:9001"]
+  - job_name: "mongodb9"
+    static_configs:
+      - targets: ["10.91.14.63:9001"]
+

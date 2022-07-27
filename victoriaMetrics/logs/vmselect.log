@@ -1,0 +1,13 @@
+2022-07-21T10:32:04.934Z	info	VictoriaMetrics/lib/logger/flag.go:12	build version: vmselect-20220714-171308-tags-v1.79.0-cluster-0-ga87f143e9
+2022-07-21T10:32:04.934Z	info	VictoriaMetrics/lib/logger/flag.go:13	command line flags
+2022-07-21T10:32:04.934Z	info	VictoriaMetrics/lib/logger/flag.go:20	flag "dedup.minScrapeInterval"="30s"
+2022-07-21T10:32:04.934Z	info	VictoriaMetrics/lib/logger/flag.go:20	flag "httpListenAddr"=":8481"
+2022-07-21T10:32:04.934Z	info	VictoriaMetrics/lib/logger/flag.go:20	flag "memory.allowedBytes"="12800MB"
+2022-07-21T10:32:04.934Z	info	VictoriaMetrics/lib/logger/flag.go:20	flag "replicationFactor"="2"
+2022-07-21T10:32:04.934Z	info	VictoriaMetrics/lib/logger/flag.go:20	flag "storageNode"="7.58.117.67:8401,7.58.117.68:8401,7.58.117.69:8401,"
+2022-07-21T10:32:04.934Z	info	VictoriaMetrics/app/vmselect/main.go:80	starting netstorage at storageNodes [7.58.117.67:8401 7.58.117.68:8401 7.58.117.69:8401 ]
+2022-07-21T10:32:04.937Z	info	VictoriaMetrics/app/vmselect/main.go:87	started netstorage in 0.002 seconds
+2022-07-21T10:32:04.941Z	info	VictoriaMetrics/lib/memory/memory.go:46	limiting caches to 12800000000 bytes, leaving 20932497408 bytes to the OS according to -memory.allowedBytes=12800MB
+2022-07-21T10:32:04.942Z	info	VictoriaMetrics/lib/httpserver/httpserver.go:93	starting http server at http://127.0.0.1:8481/
+2022-07-21T10:32:04.942Z	info	VictoriaMetrics/lib/httpserver/httpserver.go:94	pprof handlers are exposed at http://127.0.0.1:8481/debug/pprof/
+2022-07-26T06:07:48.961Z	info	VictoriaMetrics/app/vmselect/querystats/querystats.go:87	enabled query stats tracking at `/api/v1/status/top_queries` with -search.queryStats.lastQueriesCount=20000, -search.queryStats.minQueryDuration=1ms

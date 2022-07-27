@@ -1,0 +1,23 @@
+2022-07-21T10:32:04.935Z	info	VictoriaMetrics/lib/logger/flag.go:12	build version: vmagent-20220714-170943-tags-v1.79.0-0-gd3116d986
+2022-07-21T10:32:04.935Z	info	VictoriaMetrics/lib/logger/flag.go:13	command line flags
+2022-07-21T10:32:04.935Z	info	VictoriaMetrics/lib/logger/flag.go:20	flag "httpListenAddr"=":8429"
+2022-07-21T10:32:04.935Z	info	VictoriaMetrics/lib/logger/flag.go:20	flag "memory.allowedBytes"="12800MB"
+2022-07-21T10:32:04.935Z	info	VictoriaMetrics/lib/logger/flag.go:20	flag "promscrape.cluster.memberNum"="0"
+2022-07-21T10:32:04.935Z	info	VictoriaMetrics/lib/logger/flag.go:20	flag "promscrape.cluster.membersCount"="3"
+2022-07-21T10:32:04.935Z	info	VictoriaMetrics/lib/logger/flag.go:20	flag "promscrape.cluster.replicationFactor"="2"
+2022-07-21T10:32:04.935Z	info	VictoriaMetrics/lib/logger/flag.go:20	flag "promscrape.config"="/home/sujian02/data/victoriaMetrics/config/prometheus.yml"
+2022-07-21T10:32:04.935Z	info	VictoriaMetrics/lib/logger/flag.go:20	flag "promscrape.suppressScrapeErrors"="true"
+2022-07-21T10:32:04.935Z	info	VictoriaMetrics/lib/logger/flag.go:20	flag "remoteWrite.maxDiskUsagePerURL"="1GB"
+2022-07-21T10:32:04.935Z	info	VictoriaMetrics/lib/logger/flag.go:20	flag "remoteWrite.tmpDataPath"="/home/sujian02/data/victoriaMetrics/data/vmagent"
+2022-07-21T10:32:04.935Z	info	VictoriaMetrics/lib/logger/flag.go:20	flag "remoteWrite.url"="secret"
+2022-07-21T10:32:04.935Z	info	VictoriaMetrics/app/vmagent/main.go:101	starting vmagent at ":8429"...
+2022-07-21T10:32:04.935Z	info	VictoriaMetrics/lib/memory/memory.go:46	limiting caches to 12800000000 bytes, leaving 20932497408 bytes to the OS according to -memory.allowedBytes=12800MB
+2022-07-21T10:32:04.937Z	info	VictoriaMetrics/lib/persistentqueue/fastqueue.go:59	opened fast persistent queue at "/home/sujian02/data/victoriaMetrics/data/vmagent/persistent-queue/1_3AF3F8AB8D23FE97" with maxInmemoryBlocks=1600, it contains 0 pending bytes
+2022-07-21T10:32:04.937Z	info	VictoriaMetrics/app/vmagent/remotewrite/client.go:164	initialized client for -remoteWrite.url="1:secret-url"
+2022-07-21T10:32:04.937Z	info	VictoriaMetrics/app/vmagent/main.go:126	started vmagent in 0.002 seconds
+2022-07-21T10:32:04.937Z	info	VictoriaMetrics/lib/promscrape/scraper.go:104	reading Prometheus configs from "/home/sujian02/data/victoriaMetrics/config/prometheus.yml"
+2022-07-21T10:32:04.937Z	info	VictoriaMetrics/lib/httpserver/httpserver.go:93	starting http server at http://127.0.0.1:8429/
+2022-07-21T10:32:04.937Z	info	VictoriaMetrics/lib/httpserver/httpserver.go:94	pprof handlers are exposed at http://127.0.0.1:8429/debug/pprof/
+2022-07-21T10:32:04.939Z	info	VictoriaMetrics/lib/promscrape/config.go:115	starting service discovery routines...
+2022-07-21T10:32:04.939Z	info	VictoriaMetrics/lib/promscrape/config.go:121	started service discovery routines in 0.000 seconds
+2022-07-21T10:32:04.941Z	info	VictoriaMetrics/lib/promscrape/scraper.go:400	static_configs: added targets: 12, removed targets: 0; total targets: 12
