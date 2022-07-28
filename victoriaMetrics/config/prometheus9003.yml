@@ -22,34 +22,34 @@ scrape_configs:
       - targets: [localhost:8480, localhost:8481, localhost:8482, localhost:8429]
   - job_name: "local"
     static_configs:
-      - targets: ["localhost:9102"]
+      - targets: ["localhost:9003"]
   - job_name: "mongodb1"
     static_configs:
-      - targets: ["10.91.13.64:9102"]
+      - targets: ["10.91.13.64:9003"]
   - job_name: "mongodb2"
     static_configs:
-      - targets: ["10.91.15.59:9102"]
+      - targets: ["10.91.15.59:9003"]
   - job_name: "mongodb3"
     static_configs:
-      - targets: ["10.91.16.59:9102"]
+      - targets: ["10.91.16.59:9003"]
   - job_name: "mongodb4"
     static_configs:
-      - targets: ["10.91.17.59:9102"]
+      - targets: ["10.91.17.59:9003"]
   - job_name: "mongodb5"
     static_configs:
-      - targets: ["10.91.12.64:9102"]
+      - targets: ["10.91.12.64:9003"]
   - job_name: "mongodb6"
     static_configs:
-      - targets: ["10.91.14.64:9102"]
+      - targets: ["10.91.14.64:9003"]
   - job_name: "mongodb7"
     static_configs:
-      - targets: ["10.91.12.63:9102"]
+      - targets: ["10.91.12.63:9003"]
   - job_name: "mongodb8"
     static_configs:
-      - targets: ["10.91.13.63:9102"]
+      - targets: ["10.91.13.63:9003"]
   - job_name: "mongodb9"
     static_configs:
-      - targets: ["10.91.14.63:9102"]
+      - targets: ["10.91.14.63:9003"]
   - job_name: "mongodb10"
     static_configs:
       - targets: ["10.214.50.57:9102"]
